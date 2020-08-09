@@ -1,0 +1,30 @@
+<html>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+
+      var urlParams = new URLSearchParams(window.location.search);
+      const Url='https://www.linkedin.com/oauth/v2/accessToken';
+
+      $.ajax({
+          url: Url,
+          type:"POST",
+          headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+          data: {
+            grant_type:"authorization_code",
+            code: urlParams.get('code'),
+            // state: urlParams.get('state'),
+            client_id: "77ypwly5aaayc6",
+            client_secret: "wjV1LeoXu8R7LGt7",
+            redirect_uri: "https://techtogether-hackathon.phinchosherpa.repl.co/signUp.html"
+          },
+          success: function(result){
+          console.log(result)
+          },
+          error:function(error){
+            console.log('Error ${error}')
+          }  
+      })
+})
+  </script>
+</html>

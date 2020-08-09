@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebas" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/montserrat" type="text/css"/>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light shadow">
+      <a class="navbar-brand" href="index.html"> <img src="image2.png" alt="WeNetwork Logo" width="90px" height="60px"></a>
+        <button class="navbar-toggler justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars" style="color:#fff"></i>
+        </button>
+      <div class="collapse navbar-collapse justify-content-left" id="navbarNavAltMarkup">
+        <div class="navbar-nav normalNav">
+          <a class="nav-item nav-link" id="Team"href="impact.html">Our Impact<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" id="Impact"href="involved.html">Get Involved</a>
+          <a class="nav-item nav-link" id="Donate" href="survey.html">Survey</a>
+          <a class="nav-item nav-link" id="Donate" href="donate.html">Donate</a>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <header>
+        <div id="carousel1" class="carousel slide carousel-fade" data-ride="carousel">
+          <div class="carousel-inner embed-responsive">
+            <div class="carousel-item active">
+              <img src="https://calendarmedia.blob.core.windows.net/assets/80dcc8bc-f24e-4038-9843-d2214eeb2251.jpg" class="d-block w-100  img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.witi.com/img/networking-women.png" class="d-block w-100  img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://spin.atomicobject.com/wp-content/uploads/functional-programming.jpg" class="d-block w-100 img-fluid" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-caption slogan">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5" data-aos="fade-in">
+                <h1 class="text-white">Join an amaing newtork of women today! </h1><<br>
+              </div>
+              <div class="mt-5">
+                  <button type="button" style="background-color:#c70c16; border-radius: 10px;" class="butn btn btn-primary hover-green"><h4 style="margin-top:10px;">Join Now</h4></button>
+              </div>
+            </div>
+            <div class="row justify-content-center learnLink mt-5">
+              <center>
+                <a id="learnlink" href="#">
+                  <p class="texthover-b" style="color:#fff;">Learn More</p>
+                  <i class="fas fa-angle-down" style="color:#fff; margin-top:-50px;"></i>
+                </a>
+              </center>
+            </div>
+          </div>
+        </div>
+      <div class="container  d-flex flex-column justify-content-center mt-4 " data-aos="zoom-out-up">
+        <center><h2 class="mobile-mission">Our Mission</h2></center>
+        <p class="mobile-mission">
+          We are dedicated to help connect women from all across the computer science or engineering field.We want to ensure that young women find their passion for tech then we want to help them turn their passions into a reality by building a network of associates. 
+        </p>
+      </div>
+    </header>
+
+    <a name="services"/>
+   
+
+    <section  class="bg-light sectionMargin p-5">
+    <footer>
+      <div class="container">
+        <div class="row pt-3">
+          <div class="col">
+            <h4>Contact Information</h4>
+            <div class="d-flex flex-row sectionText mt-3">
+                <i class="fas fa-phone"></i>
+                <p>&emsp; 347-8370-6328</p>
+              </div>
+              <div class="d-flex flex-row sectionText">
+                <i class="fas fa-envelope"></i>
+                <p>&emsp;wenetwork@gmail.com</p>
+              </div>
+              <div class="d-flex flex-row sectionText">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>&emsp;8571 South Oklahoma Ave.
+                Brooklyn, NY 11234</p>
+              </div>
+              <div class="d-flex flex-row sectionText">
+                <i class="fab fa-instagram"></i>&emsp;
+                <i class="fab fa-youtube"></i>&emsp;
+                <i class="fab fa-twitter"></i>&emsp;
+                <i class="fab fa-facebook"></i>
+              </div>
+          </div>
+          <div class="col">
+            <h4>Send Us A message</h4></br>
+            <div class="form-group"  style="margin-top:-20px;">
+              <input type="Name" id="inputName" class="form-control rounded"  placeholder="Name"/>
+            </div>
+            <div class="form-group">
+              <input type="Email" id="inputName" class="form-control" placeholder="Email"/>
+            </div>
+            <div class="form-group">
+              <input type="Message" id="inputName" class="form-control" placeholder="Your Message" style="height:4em;"/>
+            </div>
+            <center><button id="sendMessage" type="button" class="btn text-white bg-blue hover-green">Send Message</button></center>
+            <div id="#messageAlert" class="d-none alert alert-primary" role="alert">
+              <p>Your message has been sent!</p>
+            </div>
+          </div>
+          <div class="col ml-4">
+            <h4>Additional Info</h4></br>
+            <a href="privacy.html">Privacy</a><br></br>
+            <a href="terms.html">Terms and Condition</a><br></br>
+            <a href="faq.html">FAQ</a><br></br>
+            <p>© 2019 WeNetwork</p>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+    </section>
+    
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/21faa3cb19.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <script src="script.js"></script>
+    <script src="index.js"></script>
+    <script src="signUp.js"></script>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+@media(max-width:720px){
+  #carousel1 .carousel-item img{
+    opacity:0.6;
+    height:70vh !important;
+  }
+  .btn{
+    width:25vw;
+    height:8vh;
+  }
+  .mission{
+    display:none;
+  }
+  .learnLink{
+    display:none !important;
+  }
+}
+#Signup {
+  border: 3px solid red;
+  margin: 0; 
+  box-sizing: border-box;
+  padding:16px;
+}
+@media(min-width:720px){
+  #carousel1 .carousel-item img{
+    opacity:0.4;
+    height:100vh !important;
+  }
+   .mobile-mission{
+    display: none;
+  }
+}
+
+
+.slogan{
+  top: 15.0%;
+  width:70%  
+}
+
+.slogan h1{
+  margin: 0;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: 'BebasNeueRegular';
+  letter-spacing: 1px;
+  font-size:8vw;
+  line-height:1.1em;
+}
+
+
+.carousel {
+  background-color:#0e0303;
+}
+
+
+.transparentChange {
+  animation-name: transChange;
+  animation-duration: 2s;
+}
+
+.navbar{
+  transition: all 0.3s;
+}
+
+.mission p{
+    font-size:1.2em;
+}
+
+.mission h2{
+    font-size:5vw;
+}
+
+.learnLink p, i {
+  opacity:0.7;
+  line-height: 0.7em;
+}
+
+.img-1 {
+  background: url("https://www.strategyzer.com/hubfs/Imported_Blog_Media/workshop+environment-6.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:50%;
+}
+
+.img-2 {
+  background: url("https://files.stlouisfed.org/files/htdocs/publications/images/employment/Thinkstock_network.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:50%;
+}
+
+.img-3 {
+  background: url("http://www.mentorsandinterns.com/wp-content/uploads/2018/07/js1-4.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:50%;
+}
+
+.img-4 {
+  background: url("https://ichef.bbci.co.uk/images/ic/640x360/p04y6fy1.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:70%;
+}
+
+
+.sectionHeader{
+  font-size:3vw
+}

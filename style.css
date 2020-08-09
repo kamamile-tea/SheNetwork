@@ -1,0 +1,114 @@
+
+/* Mentor help */
+
+
+h1, h2, h3, h4{
+  font-family:'BebasNeueRegular';
+  letter-spacing: 1px;
+  font-size:5vw;
+  font-weight: 500;
+}
+
+p, a, span {
+  font-family: 'MontserratRegular';
+  font-size:1.2em;
+}
+
+button {
+  font-family:'BebasNeueRegular';
+}
+
+.rounded {
+  border-radius: 20% !important;
+}
+
+.circular {
+  border-radius: 48% !important;
+}
+
+.bg-blue{
+  background-color:#08B4DB!important;
+}
+
+.f-blue {
+  color:#08B4DB!important;
+}
+
+.bg-green {
+  background-color:#C2F970!important;
+}
+
+.f-green {
+  color:#C2F970!important;
+}
+
+.bg-purple {
+  background-color:#9E3DFF!important;
+}
+
+.f-purple {
+  color:#9E3DFF!important;
+}
+
+.sectionHeader {
+  font-size:5vw;
+}
+
+.hover-blue:hover {
+  background-color:#08B4DB!important;
+  transition: background-color 0.3s;
+}
+
+.hover-green:hover {
+  background-color:#C2F970!important;
+  transition: background-color 0.3s;
+}
+
+.hover-purple:hover{
+  background-color:#9E3DFF!important;
+  transition: background-color 0.3s;
+}
+
+.texthover-b:hover {
+  color:#08B4DB!important;
+  transition: color 0.3s;
+}
+
+.texthover-g:hover {
+  color:#C2F970!important;
+  transition:color 0.3s;
+}
+
+.texthover-p:hover{
+  color:#9E3DFF!important;
+  transition: color 0.3s;
+}
+
+.greenLine {
+  border-style:solid;
+  border-color:#C2F970 !important;
+}
+
+bigP {
+  font-size:3em; 
+  width:50vw;
+}
+
+.sectionMargin {
+  
+  margin-top:0px;
+}
+
+.sectionHeader {
+   font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'BebasNeueRegular';
+  letter-spacing: 1px;
+  font-size:6vw;
+  line-height:1.1em;
+}
+
+footer {
+  height:40vh;
+  width:100%;
+}

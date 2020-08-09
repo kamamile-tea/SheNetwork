@@ -1,0 +1,112 @@
+#header{
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:2;
+  background-image:url("https://www.ecmcfoundation.org/media/1571/gettyimages-485558672.jpg");
+  background-repeat:none;
+  background-size:cover;
+  width:100vw;
+  height:60vh;
+  opacity:0.6;
+}
+
+.headerBlack{
+  position:relative;
+  left:0;
+  top:0;
+  width:100vw;
+  height:60vh;
+  background-color:black;
+  z-index:1;
+}
+
+.my-content{
+  margin:none;
+  padding:none;
+  position:absolute;
+  top:10vh;
+  left:5vw;
+  z-index:3;
+}
+.my-content h3{
+  margin-left:20vw;
+  margin-right:20vw;
+}
+
+
+
+.card-header .fa {
+  transition: .3s transform ease-in-out;
+}
+.card-header .collapsed .fa {
+  transform: rotate(90deg);
+}
+
+
+.storyImg {
+  height:20vh;
+  width:15vw;
+  border-radius:40%;
+}
+
+.modalImg {
+  height:25vh;
+  width:20vw;
+  border-radius:5px;
+}
+
+.studentBlock, .professionalBlock{
+  transition: all 0.3s;
+}
+
+
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #08B4DB;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #9E3DFF; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#08B4DB;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#9E3DFF; }
+
+
+
+
+
