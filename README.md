@@ -1,4 +1,4 @@
-# TechTogether-Hackathon 2020 (BU Spark - Best High School Hack, Best UI/UX Hack)
+# TechTogether-Hackathon 2020 (Best High School Hack, Best UI/UX Hack)
 https://devpost.com/software/shenetwork
 
 Inspiration - At the beginning of our spark into tech, majority of us did not know where to start. We pieced in our personal / family connections to help us jump into the tech industry but it wasn't of much help. We felt like we weren't as supported in our dreams / endeavors and we want to create a platform for all the females out there that felt like us in the beginning and provide them the opportunities that we did not have in the beginning.
